@@ -1,0 +1,14 @@
+<svg width="114.000000" height="114.000000" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<mask id="mask_1103_3641" fill="white">
+		<path id="Union" d="M57.5 0L114 0L114 84.75L57.5 84.75L57.5 56.5L85.75 56.5L85.75 28.25L57.5 28.25L57.5 0Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Union" d="M84.75 56.5L57.5 56.5L57.5 84.75L114 84.75L114 0L57.5 0L57.5 28.25L85.75 28.25L85.75 56.5L84.75 56.5ZM58.5 27.25L86.75 27.25L86.75 57.5L58.5 57.5L58.5 83.75L113 83.75L113 1L58.5 1L58.5 27.25Z" clip-rule="evenodd" fill="#C778DD" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<mask id="mask_1103_3647" fill="white">
+		<path id="Union" d="M1 28.25L57.5 28.25L57.5 56.5L29.25 56.5L29.25 84.75L57.5 84.75L57.5 113L1 113L1 28.25Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Union" d="M58.5 27.25L0 27.25L0 114L58.5 114L58.5 83.75L30.25 83.75L30.25 57.5L58.5 57.5L58.5 27.25ZM30.25 56.5L57.5 56.5L57.5 28.25L1 28.25L1 113L57.5 113L57.5 84.75L29.25 84.75L29.25 56.5L30.25 56.5Z" clip-rule="evenodd" fill="#C778DD" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

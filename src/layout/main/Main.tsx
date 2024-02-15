@@ -1,11 +1,31 @@
-import React from 'react';
+import React from "react";
+import styled from "styled-components";
+import { Title } from "../../components/title/Title";
+import { FlexWrapper } from "../../components/FlexWrapper";
 
-const Main = () => {
+export const Main = () => {
   return (
-    <div>
-      
-    </div>
+    <StyledMain>
+      <FlexWrapper>
+        <Column>
+          <Title fontWeight="600">
+            Elias is a <span>web designer</span> and <span>front-end developer</span>
+          </Title>
+        </Column>
+        <Column>
+          <Title fontWeight="600">
+            Elias is a <span>web designer</span> and <span>front-end developer</span>
+          </Title>
+        </Column>
+      </FlexWrapper>
+    </StyledMain>
   );
 };
 
-export default Main;
+const StyledMain = styled.section``;
+
+const Column = styled.div`
+  @media screen and (min-width: 768px) {
+    flex: 1 1 50%;
+  }
+`;
