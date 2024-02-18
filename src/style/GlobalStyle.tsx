@@ -27,6 +27,16 @@ const GlobalStyle = createGlobalStyle`
     color: #fff;
     cursor: pointer;
   }
+  button{
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    padding: 0;
+    margin: 0;
+  }
+
+  p{
+  }
 `;
 
 export default GlobalStyle;

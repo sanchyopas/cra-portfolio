@@ -3,33 +3,20 @@ import styled from "styled-components";
 import { myTheme } from "../../style/ThemeStyle";
 import { FlexWrapper } from "../FlexWrapper";
 
-export const Menu = () => {
+export const Menu = (props: { menuItems: Array<string> }) => {
   return (
     <StyledMenu>
-      <FlexWrapper as="ul">
-        <StyleMenuItem>
-          <Link href="#">
-            <span>#</span>home
-          </Link>
-        </StyleMenuItem>
-        <StyleMenuItem>
-          <Link href="#">
-            <span>#</span>works
-          </Link>
-        </StyleMenuItem>
-        <StyleMenuItem>
-          <Link href="#">
-            <span>#</span>about-me
-          </Link>
-        </StyleMenuItem>
-        <StyleMenuItem>
-          <Link href="#">
-            <span>#</span>contacts
-          </Link>
-        </StyleMenuItem>
-        <StyleMenuItem>
-          <Link href="#">EN</Link>
-        </StyleMenuItem>
+      <FlexWrapper as="ul" align="center" wrap="wrap">
+        {props.menuItems.map((item, index) => {
+          return (
+            <StyleMenuItem>
+              <Link href="#" key={index}>
+                <span>#</span>
+                {item}
+              </Link>
+            </StyleMenuItem>
+          );
+        })}
       </FlexWrapper>
     </StyledMenu>
   );
